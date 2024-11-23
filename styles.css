@@ -1,0 +1,102 @@
+@import url('https://fonts.google.com/specimen/Redressed?query=redress&noto.query=redressed'); 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .redressed{
+    font-family: 'redressed', cursive;}
+  .merriweather {
+    font-family: 'Merriweather' , serif;
+}
+  p.text-margin{
+    margin-top: 100px;
+  }
+  
+.dd-navbar {
+  background : linear-gradient(rgba(0,0,0,0.));
+  font-family: 'Merriweather', serif;
+  z-index: 99;
+}
+/* .cc-navbar{
+  position: relative;
+  margin-left: 100px;
+} */
+.p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f78da7;
+  }
+  
+  .upload-button {
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    background-color: #f78da7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  button.btn-order {
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    color: #f78da7;
+    border-color:#f78da7;
+    cursor: pointer; 
+    transition: 0.5s;
+     
+  
+}
+button.btn-order:hover ,
+.btn-order:active{
+    color : #fff;
+    background-color: #f78da7;
+
+}
+.banner .banner-desc {
+  font-size: 48px;
+  font-weight: 400;
+  color: #fff;
+}
+
+  
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  button.analyse-button {
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    /* background-color: #f78da7; */
+    color:#f78da7;
+    /* border: none; */
+    border-color:#f78da7;
+    border-radius: 10px;
+    /* cursor: pointer; */
+    margin-bottom: 100px;
+  }
+  button.analyse-button:hover ,
+  .analyse-button:active{
+    color : #fff;
+    background-color: #f78da7;
+
+}
+
+    
+  .cc-container{
+    background: center center fixed no-repeat ;
+    background-image: url('assets/background.jpg'); 
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
